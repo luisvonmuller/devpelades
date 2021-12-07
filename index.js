@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-var exec = require("child_process").exec,
-  child;
+var exec = require("child_process").exec;
 var http = require("http");
 
 const Twitter = require("twitter-v2");
@@ -16,7 +15,7 @@ const openBrowser = (url) => {
     if (error !== null) {
       console.log("exec error: " + error);
     }
-  })();
+  })
 };
 
 const weekAgo = () => {
@@ -45,7 +44,7 @@ const one = async () => {
       newsDevPelades.data[
         randomIntFromInterval(0, newsDevPelades.meta.result_count - 1)
       ];
-    child(openBrowser(`https://twitter.com/i/web/status/${chosenPelade.id}`));
+    openBrowser(`https://twitter.com/i/web/status/${chosenPelade.id}`);
   }
   //
 };
