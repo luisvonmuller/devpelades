@@ -1,0 +1,23 @@
+{
+  "name": "devpelades",
+  "version": "1.0.0",
+  "description": "Opens a random tweet from the hashtag Devs Pelades (To get yourself some Humor) the greek definition tho",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvonmuller/devpelades.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisvonmuller/devpelades/issues"
+  },
+  "homepage": "https://github.com/luisvonmuller/devpelades#readme",
+  "dependencies": {
+    "twitter-v2": "^1.1.0"
+  }
+}
