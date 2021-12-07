@@ -1,18 +1,21 @@
 {
   "name": "devpelades",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Opens a random tweet from the hashtag Devs Pelades (To get yourself some Humor) the greek definition tho",
-  "main": "index.js",
-  "scripts": {
-    "run": "node index.js",
+  "main": "./index.js",
+  "bin": {
+    "devpelades": "./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luisvonmuller/devpelades.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "bolhadev",
+    "devpelades"
+  ],
+  "author": "luisvonmuller",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/luisvonmuller/devpelades/issues"
   },
